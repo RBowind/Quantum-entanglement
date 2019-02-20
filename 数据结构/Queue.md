@@ -8,15 +8,15 @@ import (
   "fmt"
 )
 
-//Queue 定义一个栈
+//Queue 定义一个队列
 type Queue []interface{}
 
-//Len 栈的高度
+//Len 队列的长度
 func (queue Queue) Len() int {
   return len(queue)
 }
 
-//Push 插入栈中
+//Push 插入队列中
 func (queue *Queue) Push(value interface{}) {
   *queue = append(*queue, value)
 }
@@ -32,7 +32,7 @@ func (queue *Queue) Poll() (interface{}, error) {
   return value, nil
 }
 
-//IsEmpty 判断栈是否为空
+//IsEmpty 判断队列是否为空
 func (queue Queue) IsEmpty() bool {
   return len(queue) == 0
 }
