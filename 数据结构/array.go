@@ -5,52 +5,44 @@ import (
 	"fmt"
 )
 
-//Stack 定义一个栈
-type Stack []interface{}
+//Queue 定义一个栈
+type Queue []interface{}
 
 //Len 栈的高度
-func (stack Stack) Len() int {
-	return len(stack)
+func (queue Queue) Len() int {
+	return len(queue)
 }
 
 //Push 插入栈中
-func (stack *Stack) Push(value interface{}) {
-	*stack = append(*stack, value)
+func (queue *Queue) Push(value interface{}) {
+	*queue = append(*queue, value)
 }
 
-//Top 栈顶
-func (stack Stack) Top() (interface{}, error) {
-	if len(stack) == 0 {
-		return nil, errors.New("Stack is empty")
+//Poll 弹出
+func (queue *Queue) Poll() (interface{}, error) {
+	theQueue := *queue
+	if theQueue.IsEmpty() {
+		return nil, errors.New("queue is empty")
 	}
-	return stack[len(stack)-1], nil
-}
-
-//Pop 弹出
-func (stack *Stack) Pop() (interface{}, error) {
-	theStack := *stack
-	if len(theStack) == 0 {
-		return nil, errors.New("stack is empty")
-	}
-	value := theStack[len(theStack)-1]
-	*stack = theStack[:len(theStack)-1]
+	value := theQueue[0]
+	*queue = theQueue[1:]
 	return value, nil
 }
 
 //IsEmpty 判断栈是否为空
-func (stack Stack) IsEmpty() bool {
-	return len(stack) == 0
+func (queue Queue) IsEmpty() bool {
+	return len(queue) == 0
 }
 
 func main() {
-	var myStack Stack
-	myStack.Push(11)
-	myStack.Push("hello world")
+	var myQueue Queue
+	myQueue.Push(11)
+	myQueue.Push("hello world")
+	fmt.Println(myQueue)
 
-	fmt.Println(myStack)
-	myStack.Pop()
-	fmt.Println(myStack.Top())
+	myQueue.Poll()
+	fmt.Println(myQueue)
 
-	myStack.Pop()
-	fmt.Println(myStack.IsEmpty())
+	myQueue.Poll()
+	fmt.Println(myQueue.IsEmpty())
 }

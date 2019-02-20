@@ -49,8 +49,8 @@ func main() {
   var myStack Stack
   myStack.Push(11)
   myStack.Push("hello world")
-
   fmt.Println(myStack)
+
   myStack.Pop()
   fmt.Println(myStack.Top())
 
