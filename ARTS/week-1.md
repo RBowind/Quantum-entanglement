@@ -40,3 +40,18 @@ func twoSum(nums []int, target int) []int {
 ```
 
 ## 2. Review
+
+I'm learning docker recently, so I would review an article about docker.
+
+[Docker ENTRYPOINT & CMD: Dockerfile best practices](https://medium.freecodecamp.org/docker-entrypoint-cmd-dockerfile-best-practices-abc591c30e21)
+
+## 3. Tip
+
+An excellent origin function in PHP:
+[`array_multisort()`](http://www.php.net/manual/zh/function.array-multisort.php)
+
+When you want to sort multi-dimensional arrays,this function is exactly what you need!
+
+Just like SQL sort: `order by column1 desc,column2 asc`. You can sort by arrays' specific keys
+
+## 4.Share
