@@ -4,7 +4,7 @@
 
 This is my first step in this plan,and this is my first plan in these years. As the saying goes,"Step by Step".So the algorithm's difficulty will become harder and harder.
 
-1. Algorithm
+## 1. Algorithm
 
 ### Problems(easy)
 
@@ -39,4 +39,4 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-2. Review
+## 2. Review
