@@ -32,9 +32,9 @@ func twoSum(nums []int, target int) []int {
     _, flag := m[n]
     if flag {
       return []int{m[n], i}
-      }
-      m[target-n] = i
     }
+      m[target-n] = i
+  }
     return nil
 }
 ```
