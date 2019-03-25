@@ -43,7 +43,7 @@ func twoSum(nums []int, target int) []int {
 
 I'm learning docker recently, so I would review an article about docker.
 
-As Title says, this article introduce the best practices of Dockerfile and the useful of ENTRYPOINT & CMD, which needed in Dockerfile.
+As Title says, this article mainly introduce the best practices of Dockerfile and the useful of ENTRYPOINT & CMD, which needed in Dockerfile.
 
 [Docker ENTRYPOINT & CMD: Dockerfile best practices](https://medium.freecodecamp.org/docker-entrypoint-cmd-dockerfile-best-practices-abc591c30e21)
 
