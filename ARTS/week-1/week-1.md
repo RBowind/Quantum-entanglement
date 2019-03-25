@@ -59,4 +59,4 @@ Just like SQL sort: `order by column1 desc,column2 asc`. You can sort by arrays'
 ## 4.Share
 
 [设计模式之意义与原则
-](https://github.com/RBowind/RBlog/blob/master/ARTS/week-1-share.md)
+](https://github.com/RBowind/RBlog/blob/master/ARTS/week-1/week-1-share.md)
