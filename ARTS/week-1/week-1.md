@@ -1,4 +1,4 @@
-# ARTS
+# ARTS-Week1
 
 > ARTS(Algorithm,Review,Tip,Share)
 
@@ -6,7 +6,7 @@ This is my first step in this plan,and this is my first plan in these years. As 
 
 ## 1. Algorithm
 
-### Problems(easy)
+### Problem(easy)
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
