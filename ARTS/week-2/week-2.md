@@ -26,6 +26,7 @@ Note:
 ### Solution
 
 Time Complexity: O(n) [code](https://github.com/RBowind/RBlog/blob/master/ARTS/week-2/demo.go)
+
 Use Ascii code and the features of golang string traversal.
 
 ```golang
