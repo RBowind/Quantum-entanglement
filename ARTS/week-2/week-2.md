@@ -74,3 +74,24 @@ func myAtoi(str string) int {
 ```
 
 ## 2.Review
+
+Today,I found an article about "the clean architecture" written by Uncle Bob.
+Althogh it's written in 2012,it still has meaningful guide for us.
+Just like:
+
+- Independent of Frameworks
+- Testable
+- Independent of UI
+- Independent of Database
+- Independent of any external agency.
+
+The lists about "Independent",tell us a design principle: "Law of demeter".
+This article is more specific.
+
+[The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+
+## Tip
+
+## Share
+
+[《HTTPS 简介与流程》](https://github.com/RBowind/RBlog/blob/master/ARTS/week-2/week-2-share.md)
