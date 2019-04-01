@@ -52,20 +52,24 @@ func myAtoi(str string) int {
 		i++
 	}
 
+	var result int
 	for ; i < len(str); i++ {
-		// 数字后面遇到了非数字的字符，便停止循环
+		// 数字后面遇到了非数字的字符，便停止遍历
 		if str[i] != 0 && (str[i] < 48 || str[i] > 57) { // 非 0 ～ 9 的ASCII
-			return num * sign
+			return result
 		}
+
 		n, _ := strconv.Atoi(string(str[i]))
 		num = num*10 + n
-		if num*sign < math.MinInt32 {
+		result = num * sign
+
+		if result < math.MinInt32 {
 			return math.MinInt32
-		} else if num*sign > math.MaxInt32 {
+		} else if result > math.MaxInt32 {
 			return math.MaxInt32
 		}
 	}
-	return num * sign
+	return result
 }
 ```
 
