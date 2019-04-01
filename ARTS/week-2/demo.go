@@ -48,12 +48,20 @@ func myAtoi(str string) int {
 	}
 	return result
 }
+func alwaysFalse() bool {
+	return false
+}
 
 func main() {
-
-	stringArray := []string{"42", "  42", "  -13", "array-13", "813 31is my birthday813", "91283472332"}
-
-	for _, val := range stringArray {
-		fmt.Println(myAtoi(val))
+	switch alwaysFalse(); {
+	case true:
+		fmt.Println("true")
+	case false:
+		fmt.Println("false")
 	}
+	// stringArray := []string{"42", "  42", "  -13", "array-13", "813 31is my birthday813", "91283472332"}
+
+	// for _, val := range stringArray {
+	// 	fmt.Println(myAtoi(val))
+	// }
 }

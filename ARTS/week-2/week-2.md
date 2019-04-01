@@ -85,12 +85,16 @@ Just like:
 - Independent of Database
 - Independent of any external agency.
 
-The lists about "Independent",tell us a design principle: "Law of demeter".
-This article is more specific.
+The lists about "Independent",remind me of a design principle: "Law of demeter".
+However,this article is more specific.
 
 [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 ## Tip
+
+A tip about MySQL:[`ON DUPLICATE KEY UPDATE`](http://www.mysqltutorial.org/mysql-insert-or-update-on-duplicate-key-update/).
+
+This syntax could save you much time to manage your data which need to be updated frequently.
 
 ## Share
 
