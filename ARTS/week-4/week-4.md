@@ -19,4 +19,4 @@ Given an array nums of n integers and an integer target, are there elements a, b
 ## Tip
 
 ## Share
-[《Docker 搭建 Golang+Nginx+Mysql 开发环境》](https://github.com/RBowind/RBlog/blob/master/ARTS/week-4/week-4-share.md)
+[《Docker 搭建 Golang+Nginx+Mysql 开发环境》](https://github.com/RBowind/RBlog/blob/master/ARTS/week-4/week-4-share.md)
