@@ -1,4 +1,4 @@
-## Docker 搭建 Golang+Nginx+Mysql 开发环境
+## Docker 搭建 Golang+Nginx+Mysql 开发环境
 
 本文主要描述笔者在MacOS环境下使用Docker搭建Golang+Nginx+MySQL的经历。
 
