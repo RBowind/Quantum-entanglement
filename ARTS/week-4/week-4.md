@@ -14,6 +14,8 @@ Base on the solution of sum3.
 ## Review
 I believe that most of us are 996 because of their ineffectiveness. We can't focus on the main task . We are interrupted all the time. Why? We should find the solutions from ourselves.
 [The Average Employee Works 3 Hours Out Of Every 8](https://medium.com/swlh/the-average-employee-works-3-hours-out-of-every-8-135f2f042268)
+
+
 ## Tip
 这里想分享一些docker命令
 
