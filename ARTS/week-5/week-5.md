@@ -17,6 +17,6 @@ For example, given n = 3, a solution set is:
 ## Review
 
 ## Tips
-Linux nohup 以及 & 技巧
+
 ## Share
-[Supervisor 帮你解决进程崩溃烦恼]()
+[Supervisor 帮你解决进程崩溃烦恼](week-5-share.md)
