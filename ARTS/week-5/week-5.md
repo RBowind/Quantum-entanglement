@@ -13,10 +13,20 @@ For example, given n = 3, a solution set is:
   "()(())",
   "()()()"
 ]
-
+To be honest, I really had no idea at first.
+[solution](index.go)
 ## Review
 
-## Tips
 
+## Tips
+nohub 以及 &
+- nohub
+
+    不挂断地运行命令
+- &
+  
+    在后台运行
+
+一般两个一起使用: `nohup command &` 这样就能使命令永久在后台运行。但如果出现进程bug导致的崩溃，比如golang里面的panic，又该如何？见下便知。
 ## Share
 [Supervisor 帮你解决进程崩溃烦恼](week-5-share.md)
