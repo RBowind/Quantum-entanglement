@@ -18,8 +18,9 @@ For example, given n = 3, a solution set is:
 To be honest, I really had no idea at first.
 
 [solution](index.go)
-## Review
 
+## Review
+[10 mistakes you should avoid](https://medium.com/@ajay.dutta94/10-mistakes-you-should-avoid-as-a-web-developer-c4ad4d2570f6)
 
 ## Tips
 nohub 以及 &
