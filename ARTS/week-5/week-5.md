@@ -14,7 +14,7 @@ For example, given n = 3, a solution set is:
   "()(())",
   "()()()"
 ]
-```w
+```
 To be honest, I really had no idea at first.
 
 [solution](index.go)
