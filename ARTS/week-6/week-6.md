@@ -36,4 +36,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 ## Tips
 
 ## Share
-GoDS —— List(链表)
+[Git 工作流和分支规范](week-6-share.md)
