@@ -32,8 +32,13 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 ```
 
 ## Review
+最近阿里云推了篇文章，一看确实不错。
+
+[架构整洁之道](https://yq.aliyun.com/articles/702344?tk=ZUyGvJlxXjLRCYX4mXHISRgZjacO3YwM%2F5DA2qmvyj4%3D)
+
+文章首先大概介绍了软件系统的价值，阐明软件系统的目标。基于此，提出三种经典的编程范式，以及在各种层面（架构设计，类和代码，组件，处理组件依赖）上的设计原则。最后确定了下架构工作的基本方针。值得细读。
 
 ## Tips
-
+	
 ## Share
 [Git 工作流和分支规范](week-6-share.md)
