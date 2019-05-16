@@ -39,6 +39,16 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 文章首先大概介绍了软件系统的价值，阐明软件系统的目标。基于此，提出三种经典的编程范式，以及在各种层面（架构设计，类和代码，组件，处理组件依赖）上的设计原则。最后确定了下架构工作的基本方针。值得细读。
 
 ## Tips
-	
+Git操作分支命令（持续更新）
+
+删除分支  `git branch -d <branchname>`
+
+查看远程分支  `git branch -r`
+
+删除远程分支：
+```git
+git branch -r -d origin/branch-name
+git push origin :branch-name
+```
 ## Share
 [Git 工作流和分支规范](week-6-share.md)
