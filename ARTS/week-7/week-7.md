@@ -4,12 +4,12 @@
 
 ##### Wildcard Matching
 
-Given an input string (`s`) and a pattern (`p`), implement wildcard pattern matching with support for  `'?'`  and  `'*'`.
+Given an input string (`s`) and a pattern (`p`), implement wildcard pattern matching with support for `'?'` and `'*'`.
 
 '?' Matches any single character.
-'*' Matches any sequence of characters (including the empty sequence).
+'\*' Matches any sequence of characters (including the empty sequence).
 
-The matching should cover the  **entire**  input string (not partial).
+The matching should cover the **entire** input string (not partial).
 
 ```go
 func isMatch(s, p string) bool {
@@ -31,7 +31,7 @@ func isMatch(s, p string) bool {
 
 ## Review
 
-[How To Get 10X The Value From Every Book You Read]([https://medium.com/@Barry.Davret/how-to-get-10x-the-value-from-every-book-you-read-90166d672988](https://medium.com/@Barry.Davret/how-to-get-10x-the-value-from-every-book-you-read-90166d672988)
+[How To Get 10X The Value From Every Book You Read](https://medium.com/@Barry.Davret/how-to-get-10x-the-value-from-every-book-you-read-90166d672988)
 
 This article is talking about the efficiency of reading. In summary,
 
