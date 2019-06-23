@@ -15,3 +15,5 @@ Bring Philosophy to normal life is diffcult. But helpful!
 - “一切皆文件”与 **管道**
 
 ## Share
+
+[数据结构](数据结构.md)
