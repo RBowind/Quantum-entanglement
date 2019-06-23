@@ -16,4 +16,4 @@ Bring Philosophy to normal life is diffcult. But helpful!
 
 ## Share
 
-[数据结构](数据结构.md)
+[DataStruct——List](datastruct.md)
