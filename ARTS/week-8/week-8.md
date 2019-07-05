@@ -16,4 +16,4 @@ Bring Philosophy to normal life is diffcult. But helpful!
 
 ## Share
 
-[DataStruct——List](datastruct.md)
+[DataStruct — List](datastruct.md)
